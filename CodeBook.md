@@ -19,6 +19,60 @@ Finally, a Fast Fourier Transform (FFT) was applied to some of these signals pro
 These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+Common terms used in the experiment
+1.	t: Time
+2.	f: Frequency domain signals
+3.	Acc: Accelerometer
+4.	Gyro: Gyroscope
+5.	Mag: Magnitude
+6.	mean (): Mean value
+7.	std (): Standard Deviation
+8.	-XYZ: 3-axial signals in the X, Y & Z directions
+
+
+Signals Used to Estimate Variables of the Feature
+1.	tBodyAcc-XYZ: Time_Body_Accelerometer-XYZ
+2.	tGravityAcc-XYZ: Time_Gravity_Accelerometer-XYZ
+3.	tBodyAccJerk-XYZ: Time_Body_AccelerometerJerk-XYZ
+4.	tBodyGyro-XYZ: Time_Body_Gyroscope-XYZ
+5.	tBodyGyroJerk-XYZ: Time_Body_GyroscopeJerk-XYZ
+6.	tBodyAccMag: Time_Body_Accelerometer_Magnitude
+7.	tGravityAccMag: Time_Gravity_Accelerometer_Magnitude
+8.	tBodyAccJerkMag: Time_Body_Accelerometer_Jerk_Magnitude
+9.	tBodyGyroMag: Time_Body_Gyroscope_Magnitude
+10.	tBodyGyroJerkMag: Time_Body_Gyroscope_Jerk_Magnitude
+11.	fBodyAcc-XYZ: Frequency_Body_Accelerometer-XYZ
+12.	fBodyAccJerk-XYZ: Frequency_Body_AccelerometerJerk-XYZ
+13.	fBodyGyro-XYZ: Frequency_Body_Gyroscope-XYZ
+14.	fBodyAccMag: Frequency_Body_Accelerometer_Magnitude
+15.	fBodyAccJerkMag: Frequency_Body_Accelerometer_Jerk_Magnitude
+16.	fBodyGyroMag: Frequency_Body_Gyroscope_Magnitude
+17.	fBodyGyroJerkMag: Frequency_Body_Gyroscope_Jerk_Magnitude
+18.	tBodyAccMean: Time_Body_Accelerometer_Mean
+19.	tBodyAccJerkMean: Time_Body_Accelerometer_Jerk_Mean
+20.	tBodyGyroMean: Time_Body_Gyroscope_Mean
+21.	tBodyGyroJerkMean: Time_Body_Gyroscope_Jerk_Mean
+
+
+
+SET OF VARIABLES ESTIMATED FROM THE ABOVE SIGNALS
+1.	mad(): Median absolute deviation
+2.	max(): Largest value in array
+3.	min(): Smallest value in array
+4.	sma(): Signal magnitude area
+5.	energy(): Energy measure. Sum of the squares divided by the number of values
+6.	iqr(): Interquartile range
+7.	entropy(): Signal entropy
+8.	arCoeff(): Auto-regression coefficients with Burg order equal to 4
+9.	correlation(): Correlation coefficient between two signals
+10.	maxInds(): Index of the frequency component with largest magnitude
+11.	meanFreq()  Weighted average of the frequency components to obtain a mean frequency
+12.	skewness(): Skewness of the frequency domain signal
+13.	kurtosis(): Kurtosis of the frequency domain signal
+14.	bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window
+15.	angle(): Angle between two vectors
+
+
 Transformations
 With regard to transformations made on the data, the following are step-by-step procedures:
 The test and train datasets merged to create one dataset.
