@@ -36,4 +36,4 @@ Descriptive variable names were given to the variable names:
 Special characters were removed, labels starting with f and t changed to frequencyDomain and timeDomain respectively.
 Acc, Gyro, Mag, Freq, mean, and std were replaced by Accelerometer, Gyroscope, Magnitude, Frequency, Mean, and StandardDeviation respectively and finally BodyBody has been replaced by Body.
 
-The final dataset was created with the mean of each variable for each activity and each subject.
+The final dataset was created with the mean of each variable for each activity as well as each subject.
