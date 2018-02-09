@@ -3,21 +3,21 @@
 
 Readme
 
-The files included in this repository are as follows:
+There are several files in this repository.
 
-README.md, explains how the dataset is created and what files are included in this repository.
-tidy_data.txt, is the final dataset.
-CodeBook.md, the code book, describes the data, variables and transformations used to generate the data.
-run_analysis.R, the R script used to generate the data set
-Creating dataset
+With the README.md, file I plan to explain how did I create a data and show also explaining other files included in the repository.
+In the "tidy_data.txt",  I show the codes and includes the final dataset.
 
-The R script run_analysis.R can be used to create the data set. It retrieves the source data set and transforms it to produce the final data set by implementing the following steps:
+In the file "CodeBook.md", I included all the codebook, as also I expalin and describe all the activities I employed to create the data, and variables. It also expalins any transformations used to generate the data.
 
-Read data.
-Merge the training and the test sets to create one data set.
-Extract only the measurements on the mean and standard deviation for each measurement.
-Use descriptive activity names to name the activities in the data set.
-Appropriately label the data set with descriptive variable names.
-Create a second, independent tidy set with the average of each variable for each activity and each subject.
-Write the data set to the tidy_data.txt file.
-The tidy_data.txt in this repository was created by running the run_analysis.R script using R. This script requires the dplyr package
+In the "run_analysis.R", which is a "R script" I show how I created dataset
+The R script run_analysis.R can actually be used for creating dataset and I show how I retrieved the source dataset and made the necessary changes to create the final dataset. In particular, I made the following:
+
+After reading and loading data, I merged the test and the train data in order to create a unique dataset.
+I only, as requested, selected the measurments on the mean and standard deviation for each measurement.
+The activities's name were changed with descriptive and the I labled the dataset with descriptive variable names.
+I also created an independent "tidy" set with the mean of each variable for each activity of every subject.
+Wrote the information into dataset "tidy_data.txt" file.
+
+This file is created by running the run_analysis.R script using RStudio. 
+This script requires the dplyr package.
